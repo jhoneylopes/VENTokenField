@@ -1,0 +1,68 @@
+client:
+  name: basic
+tools: {}
+targets:
+  "PackageStructure": ["<PackageStructure>"]
+  "VENTokenField-debug.module": ["<VENTokenField-debug.module>"]
+  "main": ["<VENTokenField-debug.module>"]
+  "test": ["<VENTokenField-debug.module>"]
+default: "main"
+nodes:
+  "/Users/jhoneylopes/MyPersonalProjects/VENTokenField/Sources/VENTokenField/":
+    is-directory-structure: true
+commands:
+  "/Users/jhoneylopes/MyPersonalProjects/VENTokenField/.build/x86_64-apple-macosx/debug/VENTokenField.build/VENBackspaceTextField.m.o":
+    tool: clang
+    inputs: ["<VENTokenField-debug.module-resources>","/Users/jhoneylopes/MyPersonalProjects/VENTokenField/Sources/VENTokenField/VENBackspaceTextField.m"]
+    outputs: ["/Users/jhoneylopes/MyPersonalProjects/VENTokenField/.build/x86_64-apple-macosx/debug/VENTokenField.build/VENBackspaceTextField.m.o"]
+    description: "Compiling VENTokenField VENBackspaceTextField.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/jhoneylopes/MyPersonalProjects/VENTokenField/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=VENTokenField","-I","/Users/jhoneylopes/MyPersonalProjects/VENTokenField/Sources/VENTokenField/include","-fmodules-cache-path=/Users/jhoneylopes/MyPersonalProjects/VENTokenField/.build/x86_64-apple-macosx/debug/ModuleCache","-include","/Users/jhoneylopes/MyPersonalProjects/VENTokenField/.build/x86_64-apple-macosx/debug/VENTokenField.build/DerivedSources/resource_bundle_accessor.h","-MD","-MT","dependencies","-MF","/Users/jhoneylopes/MyPersonalProjects/VENTokenField/.build/x86_64-apple-macosx/debug/VENTokenField.build/VENBackspaceTextField.m.d","-c","/Users/jhoneylopes/MyPersonalProjects/VENTokenField/Sources/VENTokenField/VENBackspaceTextField.m","-o","/Users/jhoneylopes/MyPersonalProjects/VENTokenField/.build/x86_64-apple-macosx/debug/VENTokenField.build/VENBackspaceTextField.m.o"]
+    deps: "/Users/jhoneylopes/MyPersonalProjects/VENTokenField/.build/x86_64-apple-macosx/debug/VENTokenField.build/VENBackspaceTextField.m.d"
+
+  "/Users/jhoneylopes/MyPersonalProjects/VENTokenField/.build/x86_64-apple-macosx/debug/VENTokenField.build/VENToken.m.o":
+    tool: clang
+    inputs: ["<VENTokenField-debug.module-resources>","/Users/jhoneylopes/MyPersonalProjects/VENTokenField/Sources/VENTokenField/VENToken.m"]
+    outputs: ["/Users/jhoneylopes/MyPersonalProjects/VENTokenField/.build/x86_64-apple-macosx/debug/VENTokenField.build/VENToken.m.o"]
+    description: "Compiling VENTokenField VENToken.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/jhoneylopes/MyPersonalProjects/VENTokenField/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=VENTokenField","-I","/Users/jhoneylopes/MyPersonalProjects/VENTokenField/Sources/VENTokenField/include","-fmodules-cache-path=/Users/jhoneylopes/MyPersonalProjects/VENTokenField/.build/x86_64-apple-macosx/debug/ModuleCache","-include","/Users/jhoneylopes/MyPersonalProjects/VENTokenField/.build/x86_64-apple-macosx/debug/VENTokenField.build/DerivedSources/resource_bundle_accessor.h","-MD","-MT","dependencies","-MF","/Users/jhoneylopes/MyPersonalProjects/VENTokenField/.build/x86_64-apple-macosx/debug/VENTokenField.build/VENToken.m.d","-c","/Users/jhoneylopes/MyPersonalProjects/VENTokenField/Sources/VENTokenField/VENToken.m","-o","/Users/jhoneylopes/MyPersonalProjects/VENTokenField/.build/x86_64-apple-macosx/debug/VENTokenField.build/VENToken.m.o"]
+    deps: "/Users/jhoneylopes/MyPersonalProjects/VENTokenField/.build/x86_64-apple-macosx/debug/VENTokenField.build/VENToken.m.d"
+
+  "/Users/jhoneylopes/MyPersonalProjects/VENTokenField/.build/x86_64-apple-macosx/debug/VENTokenField.build/VENTokenField.m.o":
+    tool: clang
+    inputs: ["<VENTokenField-debug.module-resources>","/Users/jhoneylopes/MyPersonalProjects/VENTokenField/Sources/VENTokenField/VENTokenField.m"]
+    outputs: ["/Users/jhoneylopes/MyPersonalProjects/VENTokenField/.build/x86_64-apple-macosx/debug/VENTokenField.build/VENTokenField.m.o"]
+    description: "Compiling VENTokenField VENTokenField.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/jhoneylopes/MyPersonalProjects/VENTokenField/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=VENTokenField","-I","/Users/jhoneylopes/MyPersonalProjects/VENTokenField/Sources/VENTokenField/include","-fmodules-cache-path=/Users/jhoneylopes/MyPersonalProjects/VENTokenField/.build/x86_64-apple-macosx/debug/ModuleCache","-include","/Users/jhoneylopes/MyPersonalProjects/VENTokenField/.build/x86_64-apple-macosx/debug/VENTokenField.build/DerivedSources/resource_bundle_accessor.h","-MD","-MT","dependencies","-MF","/Users/jhoneylopes/MyPersonalProjects/VENTokenField/.build/x86_64-apple-macosx/debug/VENTokenField.build/VENTokenField.m.d","-c","/Users/jhoneylopes/MyPersonalProjects/VENTokenField/Sources/VENTokenField/VENTokenField.m","-o","/Users/jhoneylopes/MyPersonalProjects/VENTokenField/.build/x86_64-apple-macosx/debug/VENTokenField.build/VENTokenField.m.o"]
+    deps: "/Users/jhoneylopes/MyPersonalProjects/VENTokenField/.build/x86_64-apple-macosx/debug/VENTokenField.build/VENTokenField.m.d"
+
+  "/Users/jhoneylopes/MyPersonalProjects/VENTokenField/.build/x86_64-apple-macosx/debug/VENTokenField.build/resource_bundle_accessor.m.o":
+    tool: clang
+    inputs: ["<VENTokenField-debug.module-resources>","/Users/jhoneylopes/MyPersonalProjects/VENTokenField/.build/x86_64-apple-macosx/debug/VENTokenField.build/DerivedSources/resource_bundle_accessor.m"]
+    outputs: ["/Users/jhoneylopes/MyPersonalProjects/VENTokenField/.build/x86_64-apple-macosx/debug/VENTokenField.build/resource_bundle_accessor.m.o"]
+    description: "Compiling VENTokenField resource_bundle_accessor.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/jhoneylopes/MyPersonalProjects/VENTokenField/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=VENTokenField","-I","/Users/jhoneylopes/MyPersonalProjects/VENTokenField/Sources/VENTokenField/include","-fmodules-cache-path=/Users/jhoneylopes/MyPersonalProjects/VENTokenField/.build/x86_64-apple-macosx/debug/ModuleCache","-include","/Users/jhoneylopes/MyPersonalProjects/VENTokenField/.build/x86_64-apple-macosx/debug/VENTokenField.build/DerivedSources/resource_bundle_accessor.h","-MD","-MT","dependencies","-MF","/Users/jhoneylopes/MyPersonalProjects/VENTokenField/.build/x86_64-apple-macosx/debug/VENTokenField.build/resource_bundle_accessor.m.d","-c","/Users/jhoneylopes/MyPersonalProjects/VENTokenField/.build/x86_64-apple-macosx/debug/VENTokenField.build/DerivedSources/resource_bundle_accessor.m","-o","/Users/jhoneylopes/MyPersonalProjects/VENTokenField/.build/x86_64-apple-macosx/debug/VENTokenField.build/resource_bundle_accessor.m.o"]
+    deps: "/Users/jhoneylopes/MyPersonalProjects/VENTokenField/.build/x86_64-apple-macosx/debug/VENTokenField.build/resource_bundle_accessor.m.d"
+
+  "/Users/jhoneylopes/MyPersonalProjects/VENTokenField/.build/x86_64-apple-macosx/debug/VENTokenField_VENTokenField.bundle/VENToken.xib":
+    tool: copy-tool
+    inputs: ["/Users/jhoneylopes/MyPersonalProjects/VENTokenField/Sources/VENTokenField/Resources/VENToken.xib"]
+    outputs: ["/Users/jhoneylopes/MyPersonalProjects/VENTokenField/.build/x86_64-apple-macosx/debug/VENTokenField_VENTokenField.bundle/VENToken.xib"]
+    description: "Copying /Users/jhoneylopes/MyPersonalProjects/VENTokenField/Sources/VENTokenField/Resources/VENToken.xib"
+
+  "<VENTokenField-debug.module>":
+    tool: phony
+    inputs: ["/Users/jhoneylopes/MyPersonalProjects/VENTokenField/.build/x86_64-apple-macosx/debug/VENTokenField.build/VENBackspaceTextField.m.o","/Users/jhoneylopes/MyPersonalProjects/VENTokenField/.build/x86_64-apple-macosx/debug/VENTokenField.build/VENToken.m.o","/Users/jhoneylopes/MyPersonalProjects/VENTokenField/.build/x86_64-apple-macosx/debug/VENTokenField.build/VENTokenField.m.o","/Users/jhoneylopes/MyPersonalProjects/VENTokenField/.build/x86_64-apple-macosx/debug/VENTokenField.build/resource_bundle_accessor.m.o"]
+    outputs: ["<VENTokenField-debug.module>"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/jhoneylopes/MyPersonalProjects/VENTokenField/Sources/VENTokenField/","/Users/jhoneylopes/MyPersonalProjects/VENTokenField/Package.swift","/Users/jhoneylopes/MyPersonalProjects/VENTokenField/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+
+  "VENTokenField-debug.module-resources":
+    tool: phony
+    inputs: ["/Users/jhoneylopes/MyPersonalProjects/VENTokenField/.build/x86_64-apple-macosx/debug/VENTokenField_VENTokenField.bundle/VENToken.xib"]
+    outputs: ["<VENTokenField-debug.module-resources>"]
+

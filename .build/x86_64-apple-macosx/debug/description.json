@@ -1,0 +1,30 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+    "/Users/jhoneylopes/MyPersonalProjects/VENTokenField/.build/x86_64-apple-macosx/debug/VENTokenField_VENTokenField.bundle/VENToken.xib" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/jhoneylopes/MyPersonalProjects/VENTokenField/Sources/VENTokenField/Resources/VENToken.xib"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/jhoneylopes/MyPersonalProjects/VENTokenField/.build/x86_64-apple-macosx/debug/VENTokenField_VENTokenField.bundle/VENToken.xib"
+        }
+      ]
+    }
+  },
+  "swiftCommands" : {
+
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "testDiscoveryCommands" : {
+
+  }
+}

@@ -1,0 +1,4 @@
+module VENTokenField {
+    umbrella header "/Users/jhoneylopes/MyPersonalProjects/VENTokenField/Sources/VENTokenField/include/VENTokenField.h"
+    export *
+}

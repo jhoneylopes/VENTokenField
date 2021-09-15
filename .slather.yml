@@ -1,3 +1,0 @@
-coverage_service: coveralls
-xcodeproj: VENTokenField.xcodeproj
-source_directory: VENTokenField
